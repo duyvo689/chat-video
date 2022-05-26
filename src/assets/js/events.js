@@ -67,8 +67,8 @@ window.addEventListener('load', () => {
             let roomLink = `${location.origin}?room=${roomName.trim().replace(' ', '_')}_${helpers.generateRandomString()}`;
 
             //show message with link to room
-            document.querySelector('#room-created').innerHTML = `Room successfully created. Click <a href='${roomLink}'>here</a> to enter room. 
-                Share the room link with your partners.`;
+            document.querySelector('#room-created').innerHTML = `Tạo phòng thành công. Bấm vào <a href='${roomLink}'>đây</a> để vào phòng. 
+                Chia sẽ link phòng cho đồng đội.`;
 
             //empty the values
             document.querySelector('#room-name').value = '';

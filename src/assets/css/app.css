@@ -1,10 +1,11 @@
 body {
-    background-color: #282829;
+    background-color: #66CDAA;
     color: #fff;
 }
 
+
 .bg-dark {
-    background-color: #121117 !important;
+    background-color: #008B8B !important;
     color: #fff;
 }
 
@@ -19,15 +20,17 @@ body {
 .chat-col{
     right: -100vw;
     bottom: 0;
-    top: 40.5px;
+    top: 45px;
     z-index: 1000;
     position: fixed;
-    color: #fff;
     padding-right: 5px;
+    color: #000;
     padding-left: 5px;
     padding-bottom: 40px;
     padding-top: 15px;
     min-height: 100vh;
+    background-color: #eae8e8 !important;
+
 }
 
 .chat-col.chat-opened {
@@ -52,6 +55,20 @@ body {
     width: 0px;  /* remove scrollbar space */
     background: transparent;
 }
+
+#room-create {
+    margin-top: 130px;
+}
+
+.input-form {
+    border-radius: 8px !important;
+}
+
+.control {
+    margin: auto;
+}
+
+
 
 .chat-box{
     bottom: 30px;
@@ -91,6 +108,12 @@ body {
     max-height: 90vh;
 }
 
+.your-room {
+    margin-top: 160px !important;
+}
+.your-input{
+    border-radius: 10px !important;
+}
 
 .remote-video-controls{
     position:absolute;
@@ -112,9 +135,10 @@ body {
 
 .local-video{
     bottom: 0;
-    left: 0;
+    left: 30px;
     position: fixed;
-    width:15vw;
+    width:18vw;
+    border-radius: 6px;
 }
 
 
@@ -130,6 +154,11 @@ body {
     font-size: smaller;
     margin-top: 5px;
     align-self: flex-end;
+}
+
+.input-mess {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
 }
 
 
